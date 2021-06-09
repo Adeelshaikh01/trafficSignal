@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Traffic Signal</h1>
+    <h4>Use console to check the meaning of light</h4>
+
+    <div class="road">
+        <img src="Images/road.jpg">
+    </div>
+    <div class="trafficSignal">
+        <div class="signalOff">
+            <img src="Images/SignalOff.png" width="200px">
+            <div class="redLight">
+                <img src="Images/offLight.png" onmouseover="redLight(this)" onmouseout="offLight(this)"  width="70px">
+            </div>
+            <div class="yellowLight">
+                <img src="Images/offlight.png" onmouseover="yellowLight(this)" onmouseout="offLight(this)" width="70px">
+            </div>
+            <div class="greenLight">
+                <img src="Images/offlight.png" onmouseover="greenLight(this)" onmouseout="offLight(this)" width="70px">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

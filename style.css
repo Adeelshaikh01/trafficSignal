@@ -1,0 +1,48 @@
+body{
+    min-width:500px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+.road{
+    text-align: center;
+    position: relative;
+}
+.road img{
+    min-width: 100px;
+}
+
+.trafficSignal{
+    position: absolute;
+    top: 160px;
+    left: 0;
+    right: 0;
+}
+.signalOff{
+    text-align: center;
+    position: relative;
+}
+.redLight{
+    position: absolute;
+    width: 100%;
+    top: 28px;
+}
+
+.yellowLight{
+    position: absolute;
+    width: 100%;
+    top: 121px;
+}
+
+.greenLight{
+    position: absolute;
+    width: 100%;
+    top: 212px;
+}
